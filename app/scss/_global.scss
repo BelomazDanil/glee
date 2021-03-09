@@ -12,8 +12,16 @@ body {
     flex-direction: column;
 }
 
+.main {
+    flex-grow: 3;
+}
+
 .container {
     max-width: 1740px;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+.container-small {
+    max-width: 1200px;
 }
